@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;1,700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  font-family: Red Hat Display;
+  background-image:url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width:1444px;
+  position: relative;
+}
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .container-text{
+    text-align: center;
+    padding: 7%;
+
+  }
+  h2{
+    color:hsl(223, 47%, 23%);
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom:5%;
+  }
+.container-text > p{
+  color:hsl(224, 23%, 55%);
+  margin-bottom: 7%;
+}
+.alert{
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-alert{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.left-alert div{
+  margin-left:20px; 
+}
+h3{
+  color: hsl(223, 47%, 23%);
+}
+p {
+  color: hsl(224, 23%, 55%);
+  margin-top: 3px;
+}
+.procced-btn{
+  margin-top:30px;
+  width: 380px;
+  height: 40px;
+  border:none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  font-family: Red Hat Display;
+  font-weight: 500;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor:pointer;
+
+}
+.procced-btn:hover{
+  background-color:hsl(224, 23%, 55%)
+}
+
+.cancel-btn{
+  margin-top: 15px;
+  width: 90px;
+  height: 30px;
+  border:none;
+  background-color: white;
+  color: #999B84;
+  font-family: Red Hat Display; 
+  font-weight: 900;
+  cursor: pointer;
+}
+.cancel-btn:hover{
+  color:hsl(223, 47%, 23%);
+}
+a:hover{
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+.attribution{
+  position: absolute;
+  top:97%;
+  left:42%;
+}
